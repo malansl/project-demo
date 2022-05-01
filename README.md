@@ -104,3 +104,57 @@ should also regularly review and apply any available patches or associated secur
 advisories for dependencies used within your application.
 
 Best Practices: https://docs.aws.amazon.com/codestar/latest/userguide/best-practices.html?icmpid=docs_acs_rm_sec
+
+-----------------------------------------------------------------------------
+
+
+Malan, boa tarde!
+
+Segue o teste para vaga que está concorrendo.  
+
+
+SOLUÇÃO ALUNOS 
+
+Uma escola está precisando de uma aplicação web para cadastro de alunos.
+A ideia é criar uma aplicação de demonstração a área da escola ver como será entregue nosso trabalho. Nesse primeiro instante a aplicação deverá contemplar cadastro e consulta, não nos preocuparemos com a alteração e exclusão. 
+Na consulta, deverá consumir uma API já em produção que irá trazer uma lista de cursos no qual esse aluno será cadastrado. 
+Contando com sua ajuda, desenvolva uma aplicação web para cadastro e consulta de alunos.  
+O modelo Aluno deverá conter: 
+•	Código do aluno; 
+•	Nome do Aluno; 
+•	CPF; 
+•	Telefones celular; 
+•	Status; 
+•	Curso; (Lista da API) 
+•	Data de matricula 
+
+API para pegar a lista de cursos:   
+
+Method GET 
+
+URL: https://gatewayext.cruzeirodosul.edu.br/entrevista/teste/cursos 
+
+ 
+
+Não deixe de utilizar: 
+•	Maven; 
+•	Java 8; 
+•	Banco de dados ( H2, Mysql, Postgree, ou outro de sua preferência); 
+•	Tomcat 9 (ou Embed Tomcat, caso utilize Spring Boot); 
+•	JSF ou Spring boot. 
+
+ 
+Fique livre para utilizar qualquer outra tecnologia ou framework em que você se sinta confortável em trabalhar ou que ache importante no projeto.  
+Para frontend pode ser em JSF, Angular, Thymeleaf, ou qualquer outro da sua preferência. 
+ 
+Caso se sinta mais a vontade de usar um objeto de banco de dados (function ou procedure) pode construir o cadastro ou consulta e depois chamar no JAVA. 
+Será um diferencial a implementação de TDD, Designer Patterns e Clean Code. 
+ 
+Ao final, para entregar seu projeto, responda a esse e-mail com: 
+•	A Url do Github; 
+•	Ou com o link do Dropbox ou Google Drive; 
+
+
+
+Obrigada e sucesso! 
+
